@@ -1,1 +1,8 @@
+use registration;
 
+INSERT INTO class ( department, number, description, title, instructor, classSchedule) VALUES ( 'AD',510, 'The goal of this course is to introduce to students foundational mathematics and statistics knowledge that will provide them skills and tools necessary to succeed in their area of study.', 'Math Stat&Mgmt','Ritt', 'MON18:00');
+
+INSERT INTO class ( department, number, description, title, instructor, classSchedule)
+                             VALUES
+                  ('AD', '571','Prereq: AD100 Pre-Analytics Laboratory
+This course presents fundamental knowledge and skills for applying business analytics to managerial decision-making in corporate environments. Topics include descriptive analytics (techniques for categorizing, characterizing, consolidation, and classifying data for conversion into useful information for the purposes of understanding and analyzing business performance), predictive analytics (techniques for detection of hidden patterns in large quantities of data to segment and group data into coherent sets in order to predict behavior and trends), prescriptive analytics (techniques for identification of best alternatives for maximizing or minimizing business objectives). ','Bus Analytics', 'Kim','TUE18:00');
