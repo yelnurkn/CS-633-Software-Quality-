@@ -1,1 +1,10 @@
-Module 2 Assignment 1
+use registration;
+
+create table student
+  (	username	varchar(15)		primary key,
+	password	varchar(15)     not null,
+	firstName	varchar(15),
+	lastLame	varchar(15),
+    gender      char,
+	dob		    date
+  );
